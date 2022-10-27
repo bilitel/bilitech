@@ -152,7 +152,7 @@ cardnumber_mask.on("accept", function () {
         case 'visa':
             ccicon.innerHTML = visa;
             ccsingle.innerHTML = visa_single;
-            swapColor('black');
+            swapColor('visacolor');
             break;
         case 'diners':
             ccicon.innerHTML = diners;
@@ -177,7 +177,7 @@ cardnumber_mask.on("accept", function () {
         case 'mastercard':
             ccicon.innerHTML = mastercard;
             ccsingle.innerHTML = mastercard_single;
-            swapColor('green');
+            swapColor('lightgreen');
 
             break;
         case 'unionpay':
